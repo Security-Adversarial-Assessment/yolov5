@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import torch
 
-from utils import TryExcept, threaded
+from detectors.intelligentAlgorithm.yolov5.utils import TryExcept, threaded
 
 
 def fitness(x):
