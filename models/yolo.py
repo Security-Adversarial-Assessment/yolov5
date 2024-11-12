@@ -25,6 +25,9 @@ if str(ROOT) not in sys.path:
 if platform.system() != "Windows":
     ROOT = Path(os.path.relpath(ROOT, Path.cwd()))  # relative
 
+import sys
+sys.path.insert(0, './detectors/intelligentAlgorithm/yolov5')
+
 from models.common import (
     C3,
     C3SPP,
